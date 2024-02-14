@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.mdma.qprotect</groupId>
-    <artifactId>CustomTransformerSample</artifactId>
+    <groupId>it.rattly</groupId>
+    <artifactId>KotlinMetadataRemover</artifactId>
     <version>1.2</version>
 
     <properties>
@@ -28,10 +28,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>dev.mdma.qprotect</groupId>
-            <artifactId>qprotect-api</artifactId>
-            <version>1.11.0</version>
-            <scope>provided</scope>
+            <groupId>com.github.qTechnologiesV2</groupId>
+            <artifactId>qProtect-API</artifactId>
+            <version>1.9.4</version>
         </dependency>
         <dependency>
             <groupId>org.ow2.asm</groupId>
