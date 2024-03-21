@@ -14,7 +14,7 @@ import java.util.function.Predicate;
 public class KotlinMetadataRemover extends ClassTransformer {
 
     public KotlinMetadataRemover() {
-        super("KotlinMetadataRemover", "Removed {} kotlin metadata");
+        super("KotlinMetadataRemover", "Stripped kotlin metadata");
     }
 
     @Override
